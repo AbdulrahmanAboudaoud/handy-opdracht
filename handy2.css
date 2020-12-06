@@ -1,0 +1,348 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.center{
+	width: 1000px;
+	margin: 0 auto; 
+}
+
+
+.list1{
+	display: inline-flex;
+	list-style: none;
+	padding: 13px;
+	
+}
+
+.hoofd_list{
+	margin-left: 20px;
+}
+
+
+a {
+	
+	text-align: center;
+	color: white;
+	text-decoration-line: none;
+	display: block;
+
+}
+ 
+li {
+	display: block;
+	float: left;
+	position: relative;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 500;
+	
+}
+
+li:hover{
+	cursor: pointer;
+
+}
+
+ul li ul li {
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 5px;
+	width: 100px;
+
+
+}
+
+ul li ul{
+	visibility: hidden;
+	position: absolute;
+	display: none;
+}
+
+ul li:hover > ul, ul li ul:hover{
+	visibility: visible;
+	opacity: 1;
+	display: block;
+	background-color: black;
+	padding: 2px;
+
+}
+
+
+nav{
+	width: 950px;
+	background-color: black;
+    position: relative;
+	top: 20px;
+	}
+
+ul li ul li :hover{
+	background-color: #ffe718;
+}
+
+ul li ul li a {
+	text-align: left;
+}
+
+.img1{
+	width: 100%;
+	
+}
+.img2{
+	width: 100%;
+    margin-top: 50px;	
+    
+}
+
+
+
+.img0{
+	margin-top: 15px;
+}
+
+.section1{
+	margin-top: 20px;
+}
+.img123{
+	padding: 7px;
+}
+
+
+
+button{
+	border-style: none;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+.yellow{
+	background-color: #ffe718;
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+
+h1{
+	padding-left: 250px;
+	padding-top: 35px;
+	font-size: 34px;
+	font-weight: 700;
+}
+
+.p1{
+	position: absolute;
+	left: 625px;
+	bottom: 30px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.but1{
+	position: absolute;
+	right: 300px;
+	bottom: 30px;
+	padding: 12px;
+	width: 200px;
+	font-weight: 500;
+	font-size: 12px;
+   
+
+}
+
+.but1:hover{
+	background-color: #222931;
+	color: white;
+}
+
+.but2{
+	position: relative;
+}
+
+
+
+
+.but2:hover:before {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 35%;
+}
+
+#Geschiedenis:hover:before{
+ content: "Geschiedenis";
+ font-size: 25px;
+ 
+}
+
+#Deals:hover:before{
+ content: "Deals";
+ font-size: 25px;
+}
+
+#Diensten:hover:before{
+ content: "Diensten";
+ font-size: 25px;
+}
+
+.p3{
+	
+	color: white;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+footer{
+	width: 100%;
+	background-color: black;
+}
+
+.articlesection{
+	position: relative;
+	height: 350px;
+
+}
+.article1{
+   position: absolute;
+   left: 20px;
+   width: 500px;
+}
+
+.article2{
+	position: absolute;
+	left: 650px;
+	width: 500px;
+
+}
+
+.article1 > p{
+	font-size: 12px;
+	line-height: 18px
+	font-weight:400;
+	margin-top: 50px;
+}
+
+h2{
+	margin-bottom: 25px;
+	margin-top: 25px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.iconp{
+	display: inline-block;
+	margin-top: 20px;
+}
+
+i{
+	padding: 5px;
+}
+
+.block{
+	width: 300px;
+	height: 100px;
+	display: inline-block;
+	position: relative;
+	background-color: #ffe718;
+	margin-left: 15px;
+
+}
+.block > i{
+	font-size: 40px;
+	display: inline-block;
+	line-height: 100px;
+	margin: 0 14px;
+	position: absolute;
+	left: 0px;
+    
+}
+.block:hover{
+	background-color: #222931;
+	color: white;
+}
+h4{
+	position: absolute;
+	left: 85px;
+	top: 35px;px;
+	font-size: 22px;
+    font-weight: 600;
+}
+
+.p4{
+	position: absolute;
+	left: 85px;
+	bottom: 30px;
+	font-size: 14px;
+	font-weight: 600;
+} 
+
+.botlist{
+	position: relative;
+	bottom: 50px;
+
+}
+
+.diensten-section{
+	height: 300px;
+	width: 950px;
+}
+
+h3{
+	margin-top: 50px;
+}
+
+.diensten-p{
+	margin-top: 50px;
+}
+
+.span1{
+	color: #ffe718;
+
+}
+.p8{
+	display: none;
+	background-color: gray;
+}
+
+.span1:hover + .p8{
+	display: block;
+	color: white;
+	width: 150px;
+
+}
+
+
+.span2{
+	color: #ffe718;
+	
+}
+.p9{
+	display: none;
+	background-color: gray;
+}
+
+.span2:hover + .p9{
+	display: block;
+	color: white;
+	width: 150px;
+}
+
+.span3{
+	color: #ffe718;
+	
+}
+.p10{
+	display: none;
+	background-color: gray;
+}
+
+.span3:hover + .p10{
+	display: block;
+	color: white;
+	width: 150px;
+}
+
+
